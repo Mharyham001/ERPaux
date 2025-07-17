@@ -21,7 +21,6 @@ class PurchaseRequest(models.Model):
         return f"{self.item_name} by {self.user.username}"
     
     class Approval(models.Model):
-        purchase_request = models.ForeignKey(PurchaseRequest, on_delete=models.CASCADE)
         approver = models.ForeignKey(User, on_delete=models.CASCADE)
         action = models.CharField(max_length=20, choices=[
             ('approved', 'Approved'),
