@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'ERPaux.wsgi.application'
 DATABASES = {
             'default': {
                 'ENGINE': 'django.db.backends.mysql',
-                'NAME': 'djangodb',  # Replace with your database name
-                'USER': 'root',  # Replace with your MySQL username
-                'PASSWORD': 'Hennyhorla20',  # Replace with your MySQL password
-                'HOST': '127.0.0.1',  # Or the IP address of your MySQL server
-                'PORT': '3306',  # Default MySQL port
+                'NAME': 'djangodb', 
+                'USER': 'root',  
+                'PASSWORD': 'Hennyhorla20',  
+                'HOST': '127.0.0.1',  
+                'PORT': '3306', 
             }
   }
 
