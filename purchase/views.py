@@ -65,4 +65,4 @@ def send_rfq(request, material_id):
 @login_required
 def rfq_list(request):
     rfqs = RequestForQuote.objects.all()
-    return render(request, 'rfq/list.html', {'rfqs': rfqs})
+    return render(request, 'rfq/list.html', {'rf's': rf's})
